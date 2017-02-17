@@ -227,7 +227,7 @@ a:focus {
 }
 
 .content-section {
-  padding-top: 100px;
+  padding-top: 80px;
 }
 .download-section {
   width: 100%;
@@ -242,9 +242,6 @@ a:focus {
 }
 
 @media (min-width: 767px) {
-  .content-section {
-    padding-top: 250px;
-  }
   .download-section {
     padding: 100px 0;
   }
@@ -287,6 +284,9 @@ ul.banner-social-buttons {
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
+}
+#contact {
+  padding: 50px 0 50px 0;
 }
 footer {
   padding: 50px 0;
