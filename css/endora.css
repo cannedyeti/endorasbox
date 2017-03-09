@@ -325,10 +325,23 @@ body {
 }
 .copyright {
   color: white;
+  margin-top: 10px;
 }
 .kickstarter {
   opacity: .4;
 }
 .kickstarter:hover {
   opacity: 1;
+}
+.storyRow {
+  margin-top: 20px;
+}
+.name {
+  display: inline-block;
+  font-size: 20px;
+  border-bottom: 1px solid grey;
+}
+
+footer p {
+  font-size: 15px;
 }
