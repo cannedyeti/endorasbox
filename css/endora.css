@@ -24,9 +24,12 @@ h6 {
   font-weight: 700;
   letter-spacing: 1px;
 }
-h2 {
+h2, h3 {
   font-family: "Griffy";
   color: #6b37c1;
+}
+h3 {
+  color: #FFD000
 }
 p {
   margin: 0 0 25px;
@@ -327,10 +330,11 @@ body {
   color: white;
   margin-top: 10px;
 }
-.kickstarter {
+.png   {
   opacity: .4;
+  max-height: 100px;
 }
-.kickstarter:hover {
+.png:hover {
   opacity: 1;
 }
 .storyRow {
